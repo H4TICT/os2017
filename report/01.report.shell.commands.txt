@@ -1,0 +1,86 @@
+Ha Anh Tuan
+USTH BI6-143
+###
+
+#echo hello world
+hello world
+
+#passwd
+Changing password for h4t.
+(current) UNIX password: 
+
+#date
+Thứ hai, 16 Tháng một năm 2017 15:06:29 ICT
+
+#hostname
+H4T-PC
+
+#arch
+x86_64
+
+#uname -a
+Linux H4T-PC 4.4.0-59-generic #80-Ubuntu SMP Fri Jan 6 17:47:47 UTC 2017 x86_64 x86_64 x86_64 GNU/Linux
+
+#dmesg
+[    0.000000] Initializing cgroup subsys cpuset
+[    0.000000] Initializing cgroup subsys cpu
+[    0.000000] Initializing cgroup subsys cpuacct
+[    0.000000] Linux version 4.4.0-59-generic (buildd@lgw01-11) (gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) ) #80-Ubuntu SMP Fri Jan 6 17:47:47 UTC 2017 (Ubuntu 4.4.0-59.80-generic 4.4.35)
+[    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-4.4.0-59-generic root=UUID=b89d4456-3194-44fc-9c43-9da3a50fe484 ro quiet splash vt.handoff=7
+[    0.000000] KERNEL supported cpus:
+[    0.000000]   Intel GenuineIntel
+[    0.000000]   AMD AuthenticAMD
+[    0.000000]   Centaur CentaurHauls
+[    0.000000] x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+[    0.000000] x86/fpu: Supporting XSAVE feature 0x01: 'x87 floating point registers'
+[    0.000000] x86/fpu: Supporting XSAVE feature 0x02: 'SSE registers'
+[    0.000000] x86/fpu: Supporting XSAVE feature 0x04: 'AVX registers'
+[    0.000000] x86/fpu: Enabled xstate features 0x7, context size is 832 bytes, 
+...
+
+#uptime
+ 15:14:18 up 19 min,  1 user,  load average: 0,14, 0,25, 0,25
+
+#who am i
+(nothing)
+
+#whoami
+h4t
+
+#who
+h4t      tty7         2017-01-16 14:55 (:0)
+
+#id
+uid=1000(h4t) gid=1000(h4t) groups=1000(h4t),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),113(lpadmin),128(sambashare)
+
+#last
+h4t      tty7         :0               Mon Jan 16 14:55    gone - no logout
+reboot   system boot  4.4.0-59-generic Mon Jan 16 14:55   still running
+h4t      tty7         :0               Mon Jan 16 21:17 - down   (-6:-22)
+reboot   system boot  4.4.0-59-generic Mon Jan 16 21:17 - 14:54  (-6:-22)
+reboot   system boot  4.4.0-59-generic Mon Jan 16 13:57 - 13:57  (00:00)
+h4t      tty7         :0               Fri Jan 13 16:05 - down   (-6:-1)
+reboot   system boot  4.4.0-59-generic Fri Jan 13 16:04 - 10:04  (-6:00)
+h4t      tty7         :0               Thu Jan 12 21:49 - crash  (18:15)
+reboot   system boot  4.4.0-59-generic Thu Jan 12 21:48 - 10:04  (12:15)
+h4t      tty7         :0               Thu Jan 12 13:23 - down   (00:45)
+reboot   system boot  4.4.0-59-generic Thu Jan 12 13:23 - 14:09  (00:45)
+h4t      tty7         :0               Thu Jan 12 12:56 - down   (00:26)
+reboot   system boot  4.4.0-31-generic Thu Jan 12 12:55 - 13:23  (00:27)
+h4t      tty7         :0               Thu Jan 12 14:32 - crash  (-1:-36)
+reboot   system boot  4.4.0-31-generic Thu Jan 12 14:31 - 13:23  (-1:-8)
+
+wtmp begins Thu Jan 12 14:31:39 2017
+
+
+#finger
+The program 'finger' is currently not installed. You can install it by typing:
+sudo apt install finger
+
+#w
+ 15:17:21 up 22 min,  1 user,  load average: 0,05, 0,17, 0,22
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+h4t      tty7     :0               14:55   22:11  34.87s  0.09s /sbin/upstart -
+
+
+
