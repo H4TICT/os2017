@@ -1,0 +1,23 @@
+Ha Anh Tuan
+USTH BI6-143
+####
+
+#ls -a | grep "list"
+list
+
+#wc /etc/passwd
+  40   71 2242 /etc/passwd
+
+#free -m
+              total        used        free      shared  buff/cache   available
+Mem:           7872        1075        5540         240        1256        6271
+Swap:          8080           0        8080
+
+
+#cat /proc/cpuinfo | grep processor | wc -l
+4
+
+
+#find /home/h4t/Pictures | grep ".jpg" | wc -l
+1
+
