@@ -10,5 +10,5 @@ Students are expected to:
 Student Info
 =======================
 
-* Name: H4T
+* Name: HaAnhTuan
 * ID: USTHBI6-143
