@@ -3,6 +3,8 @@
 #include<pthread.h>
 #define BUFFER_SIZE 10
 
+int i,j;
+
 typedef struct {
 	char type; // 0=fried chicken, 1=French fries
 	int amount; // pieces or weight
@@ -46,31 +48,33 @@ printf("First: %d ;   Last: %d", first, last);
 
 int main(){
 //3 items
-        item itemA;
+        item item1;
 	itemA.type='0';
 	itemA.amount= 2;
 	itemA.unit='0';
 
-	item itemB;
+	item item2;
 	itemB.type='1';
 	itemB.amount= 5;
 	itemB.unit='1';
 
-	item itemC;
+	item item3;
 	item.type='1';
 	item.amount=8;
 	item.unit='0';
 
-//create produce threads
-pthread_t producer;
-pthread_create (&producer,NULL,produceItems,NULL);
-pthread_join (producer,NULL);
-
-//consume threads
-pthread_t consumer;
-pthread_create (&consumer,NULL,consumeItems,NULL);
-pthread_join (consumer,NULL);
-
+//create 3 produce threads
+for (i=0;i<3;i++){
+pthread_t producer[i];
+pthread_create (&producer[i],NULL,produceItems,NULL);
+pthread_join (producer[i],NULL);
+}
+//consume 2 consume threads
+for (j=0;j<2;j++){
+pthread_t consumer[j];
+pthread_create (&consumer[j],NULL,consumeItems,NULL);
+pthread_join (consumer[j],NULL);
+}
 return 0;
 }
 
