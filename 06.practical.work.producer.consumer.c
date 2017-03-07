@@ -37,7 +37,7 @@ sizeof (item));
 return i;
 }
 
-//create 2 new items
+//create 2 items
 int main(){
  
 	item itemA;
